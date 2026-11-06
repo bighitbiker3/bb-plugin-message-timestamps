@@ -1,6 +1,6 @@
 {
   "name": "bb-plugin-message-timestamps",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "repository": {
     "type": "git",
@@ -12,8 +12,8 @@
     "typecheck": "tsc -p tsconfig.json --noEmit"
   },
   "engines": {
-    "bb": ">=0.37",
-    "bbPluginSdk": "^0.4.1"
+    "bb": ">=0.48.1",
+    "bbPluginSdk": "^0.6.98"
   },
   "bb": {
     "name": "Message Timestamps",
@@ -25,10 +25,8 @@
     "app": "./app.tsx",
     "skills": []
   },
-  "dependencies": {
-    "zod": "^4.3.6"
-  },
   "devDependencies": {
+    "@get-bb/plugin-sdk": "^0.6.98",
     "@types/better-sqlite3": "^7.6.12",
     "@types/node": "^22.0.0",
     "@types/react": "^19.0.0",
